@@ -11,8 +11,6 @@ Real-time Realtime Database
 
 Image uploads
 
-Geolocation via Google Maps API
-
 Stripe API for online payments
 
 Order history + order management
@@ -32,7 +30,7 @@ Admin Interface
 
 
 
-FRUIT STORE (2)
+
 
  Features
  Buyer Panel
@@ -75,7 +73,7 @@ See individual order details
 
 Manage order statuses
 
-🛠️ Technologies Used
+ Technologies Used
 Layer	Tools / Tech
 Frontend (Android)	Java, XML, Glide
 Backend (Cloud)	Firebase Authentication, Firebase Realtime Database, Firebase Storage
