@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:layout_marginVertical="6dp"
+    android:layout_marginHorizontal="16dp"
+    android:background="@android:drawable/edit_text"
+    android:backgroundTint="@color/white">
+
+    <ImageView
+        android:id="@+id/fruitImage"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="12dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/fruitName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fruit"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#2E4A27"/>
+
+        <TextView
+            android:id="@+id/fruitPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="price/kg"
+            android:textSize="14sp"
+            android:textColor="#556B5C"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/fruitArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="&lt;"
+        android:textSize="26sp"
+        android:textColor="#2E4A27"
+        android:gravity="center"
+        android:paddingHorizontal="8dp"
+        android:clickable="true"
+        android:focusable="true"/>
+
+</LinearLayout>

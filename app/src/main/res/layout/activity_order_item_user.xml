@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:layout_marginBottom="12dp">
+
+    <!-- White box background -->
+    <LinearLayout
+        android:id="@+id/orderBox"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:background="@android:drawable/edit_text"
+        android:backgroundTint="@color/white"
+        android:elevation="2dp">
+
+        <!-- Fruit Image -->
+        <ImageView
+            android:id="@+id/orderFruitImage"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginEnd="12dp"
+            android:scaleType="fitCenter" />
+
+        <!-- Name + Price -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/orderFruitName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fruit Name"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="#2E4A27" />
+
+            <TextView
+                android:id="@+id/orderPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$0.00/kg"
+                android:textSize="14sp"
+                android:textColor="#4A5B43"
+                android:layout_marginTop="2dp"/>
+        </LinearLayout>
+
+        <!-- Buy Again Button -->
+        <Button
+            android:id="@+id/btnBuyAgain"
+            android:layout_width="90dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="#325E2D"
+            android:text="Buy Again"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <!-- Order Date at the right -->
+    <TextView
+        android:id="@+id/orderDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="17-05-2025"
+        android:textColor="#000000"
+        android:textSize="11sp"
+        android:layout_alignRight="@id/orderBox"
+        android:layout_below="@id/orderBox"
+        android:layout_marginTop="3dp" />
+
+</RelativeLayout>

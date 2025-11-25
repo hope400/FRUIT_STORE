@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8F3DD"
+    android:padding="24dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:padding="16dp"
+        android:background="#96B48C">
+
+        <TextView
+            android:id="@+id/addFruitBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&lt; "
+            android:textSize="32sp"
+            android:textColor="#2E4A27"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/titleAddFruit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Fruit"
+            android:textSize="22sp"
+            android:textColor="#2E4A27"
+            android:textStyle="bold"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="130dp">
+
+        <ImageView
+            android:id="@+id/addFruitImage"
+            android:layout_width="160dp"
+            android:layout_height="130dp"
+            android:background="@android:drawable/edit_text"
+            android:backgroundTint="@color/white"
+            android:layout_gravity="center" />
+
+        <EditText
+            android:id="@+id/inputFruitName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Fruit Name"
+            android:padding="12dp"
+            android:layout_marginTop="24dp" />
+
+        <EditText
+            android:id="@+id/inputFruitPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Price"
+            android:padding="12dp"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/inputFruitStock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Amount in stock"
+            android:padding="12dp"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSaveFruit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Fruit"
+        android:textColor="@color/white"
+        android:backgroundTint="#325E2D"
+        android:padding="12dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp" />
+
+</RelativeLayout>

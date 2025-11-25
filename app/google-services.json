@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "217230113864",
+    "project_id": "fruit-store-fd75b",
+    "storage_bucket": "fruit-store-fd75b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:217230113864:android:e9517a97a60d8f84076c7d",
+        "android_client_info": {
+          "package_name": "com.example.fruit_store"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcFsah3xwMPC-j96QFv8y9OqfZae-i1OM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
